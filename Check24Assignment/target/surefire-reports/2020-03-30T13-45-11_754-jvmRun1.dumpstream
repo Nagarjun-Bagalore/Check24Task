@@ -1,0 +1,1726 @@
+# Created at 2020-03-30T13:46:41.563
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-03-30T13:46:43.640
+Unexpected IOException: 5,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User search for "Iphone 11" in the search box(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.644
+Unexpected IOException: 7,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User search for "Iphone 11" in the search box(Scenario: Login to Check24 page and verify shopping cart scenario),null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']}\000A
+
+
+# Created at 2020-03-30T13:46:43.645
+Unexpected IOException: 7,1,Scenario: Login to Check24 page and verify shopping cart scenario,Scenario: Login to Check24 page and verify shopping cart scenario,null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']}\000A
+
+
+# Created at 2020-03-30T13:46:43.655
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,And User selects the desired model from the result list(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.657
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User is navigated to the Iphone model details page(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.658
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User clicks on the the button "In den Warenkorb"(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.659
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User sees a popup message that the product is added in the Shopping cart(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.660
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User clicks on the "Warenkorb" link(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.662
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User is navigated to the Shopping cart page(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.663
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,And User is able to see the prices\002C quantity and shipping cost(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.664
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User hovers above the "Mein Konto" on Product details page(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.665
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,And User clicks on the "Abmelden" button(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.666
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User should be successfully logged out(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T13:46:43.667
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:46:43.668
+Unexpected IOException with stream:   Scenario: Login to Check24 page and verify shopping cart scenario               # TC2_ShoppingCartVerification.feature:22
+
+
+# Created at 2020-03-30T13:46:43.668
+Unexpected IOException with stream:     Given User is in the check24.de website                                       # LoginFunctionality.User_is_in_the_check_de_website(int)
+
+
+# Created at 2020-03-30T13:46:43.668
+Unexpected IOException with stream:     When User clicks on the Anmelden button and enters the username and password  # LoginFunctionality.User_clicks_on_the_Anmelden_button_and_enters_the_username_and_password()
+
+
+# Created at 2020-03-30T13:46:43.669
+Unexpected IOException with stream:     And User clicks on the Anmelden button                                        # LoginFunctionality.User_clicks_on_the_Anmelden_button()
+
+
+# Created at 2020-03-30T13:46:43.669
+Unexpected IOException with stream:     Then User is navigated to the account page                                    # LoginFunctionality.User_is_navigated_to_the_account_page()
+
+
+# Created at 2020-03-30T13:46:43.669
+Unexpected IOException with stream:     When User search for "Iphone 11" in the search box                            # ShoppingCartVerification.User_search_for_in_the_search_box(String)
+
+
+# Created at 2020-03-30T13:46:43.670
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}
+        (Session info: chrome=80.0.3987.132)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 9478ff60c18f4df82a52743606740751
+      *** Element info: {Using=xpath, value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at stepDefinition.ShoppingCartVerification.User_search_for_in_the_search_box(ShoppingCartVerification.java:37)
+      	at ?.When User search for "Iphone 11" in the search box(TC2_ShoppingCartVerification.feature:27)
+
+
+
+# Created at 2020-03-30T13:46:43.671
+Unexpected IOException with stream:     And User selects the desired model from the result list                       # ShoppingCartVerification.User_selects_the_desired_model_from_the_result_list()
+
+
+# Created at 2020-03-30T13:46:43.671
+Unexpected IOException with stream:     Then User is navigated to the Iphone model details page                       # ShoppingCartVerification.User_is_navigated_to_the_Iphone_model_details_page()
+
+
+# Created at 2020-03-30T13:46:43.671
+Unexpected IOException with stream:     When User clicks on the the button "In den Warenkorb"                         # ShoppingCartVerification.User_clicks_on_the_the_button(String)
+
+
+# Created at 2020-03-30T13:46:43.672
+Unexpected IOException with stream:     Then User sees a popup message that the product is added in the Shopping cart # ShoppingCartVerification.User_sees_a_popup_message_that_the_product_is_added_in_the_Shopping_cart()
+
+
+# Created at 2020-03-30T13:46:43.672
+Unexpected IOException with stream:     When User clicks on the "Warenkorb" link                                      # ShoppingCartVerification.User_clicks_on_the_link(String)
+
+
+# Created at 2020-03-30T13:46:43.673
+Unexpected IOException with stream:     Then User is navigated to the Shopping cart page                              # ShoppingCartVerification.User_is_navigated_to_the_Shopping_cart_page()
+
+
+# Created at 2020-03-30T13:46:43.673
+Unexpected IOException with stream:     And User is able to see the prices, quantity and shipping cost                # ShoppingCartVerification.User_is_able_to_see_the_prices_quantity_and_shipping_cost()
+
+
+# Created at 2020-03-30T13:46:43.673
+Unexpected IOException with stream:     When User hovers above the "Mein Konto" on Product details page               # ShoppingCartVerification.User_hovers_above_the_on_Product_details_page(String)
+
+
+# Created at 2020-03-30T13:46:43.674
+Unexpected IOException with stream:     And User clicks on the "Abmelden" button                                      # LoginFunctionality.User_clicks_on_the_button(String)
+
+
+# Created at 2020-03-30T13:46:43.674
+Unexpected IOException with stream:     Then User should be successfully logged out                                   # LoginFunctionality.User_should_be_successfully_logged_out()
+
+
+# Created at 2020-03-30T13:46:43.675
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T13:46:43.675
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T13:46:43.675
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T13:46:43.676
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T13:46:43.676
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T13:46:43.676
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T13:46:43.677
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T13:46:43.677
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T13:46:43.678
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T13:46:43.678
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T13:46:43.678
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T13:46:43.679
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T13:46:43.679
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T13:46:43.679
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T13:46:43.680
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T13:46:43.680
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T13:46:43.680
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T13:46:43.681
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T13:46:43.681
+Unexpected IOException with stream: Feature: Checking for toggle functionality and verifying for the price change
+
+
+# Created at 2020-03-30T13:46:43.687
+Unexpected IOException: 5,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,null,null,null
+
+
+# Created at 2020-03-30T13:46:44.549
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T13:46:44.550
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T13:46:44.550
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T13:46:44.551
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T13:46:44.551
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T13:46:44.552
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T13:46:44.552
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T13:46:44.553
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T13:46:44.553
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T13:46:44.554
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.554
+Unexpected IOException with stream: 4
+
+# Created at 2020-03-30T13:46:44.555
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T13:46:44.555
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T13:46:44.556
+Unexpected IOException with stream: 4
+
+# Created at 2020-03-30T13:46:44.557
+Unexpected IOException with stream: 9
+
+# Created at 2020-03-30T13:46:44.558
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T13:46:44.559
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T13:46:44.559
+Unexpected IOException with stream: S
+
+# Created at 2020-03-30T13:46:44.560
+Unexpected IOException with stream: E
+
+# Created at 2020-03-30T13:46:44.560
+Unexpected IOException with stream: V
+
+# Created at 2020-03-30T13:46:44.561
+Unexpected IOException with stream: E
+
+# Created at 2020-03-30T13:46:44.562
+Unexpected IOException with stream: R
+
+# Created at 2020-03-30T13:46:44.562
+Unexpected IOException with stream: E
+
+# Created at 2020-03-30T13:46:44.563
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T13:46:44.563
+Unexpected IOException with stream: :
+
+# Created at 2020-03-30T13:46:44.564
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.564
+Unexpected IOException with stream: T
+
+# Created at 2020-03-30T13:46:44.565
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T13:46:44.565
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T13:46:44.566
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.566
+Unexpected IOException with stream: d
+
+# Created at 2020-03-30T13:46:44.567
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.567
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T13:46:44.568
+Unexpected IOException with stream: u
+
+# Created at 2020-03-30T13:46:44.568
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T13:46:44.568
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.569
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.569
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.570
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T13:46:44.570
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.571
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T13:46:44.571
+Unexpected IOException with stream: v
+
+# Created at 2020-03-30T13:46:44.571
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T13:46:44.572
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T13:46:44.572
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T13:46:44.573
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.574
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T13:46:44.574
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.575
+Unexpected IOException with stream: s
+
+# Created at 2020-03-30T13:46:44.575
+Unexpected IOException with stream: s
+
+# Created at 2020-03-30T13:46:44.576
+Unexpected IOException with stream: a
+
+# Created at 2020-03-30T13:46:44.576
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T13:46:44.577
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.577
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.577
+Unexpected IOException with stream: f
+
+# Created at 2020-03-30T13:46:44.578
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.578
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T13:46:44.579
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T13:46:44.579
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.579
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.580
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.580
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T13:46:44.581
+Unexpected IOException with stream: d
+
+# Created at 2020-03-30T13:46:44.581
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.581
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.582
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.582
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.583
+Unexpected IOException with stream: :
+
+# Created at 2020-03-30T13:46:44.583
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.583
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.584
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T13:46:44.584
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T13:46:44.585
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.585
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.585
+Unexpected IOException with stream: 
+
+# Created at 2020-03-30T13:46:44.586
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:46:44.650
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T13:46:44.651
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T13:46:44.651
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T13:46:44.652
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T13:46:44.652
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T13:46:44.653
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T13:46:44.653
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T13:46:44.654
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T13:46:44.654
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T13:46:44.655
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.655
+Unexpected IOException with stream: 4
+
+# Created at 2020-03-30T13:46:44.656
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T13:46:44.656
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T13:46:44.657
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T13:46:44.657
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.658
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T13:46:44.658
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T13:46:44.659
+Unexpected IOException with stream: S
+
+# Created at 2020-03-30T13:46:44.659
+Unexpected IOException with stream: E
+
+# Created at 2020-03-30T13:46:44.660
+Unexpected IOException with stream: V
+
+# Created at 2020-03-30T13:46:44.660
+Unexpected IOException with stream: E
+
+# Created at 2020-03-30T13:46:44.660
+Unexpected IOException with stream: R
+
+# Created at 2020-03-30T13:46:44.661
+Unexpected IOException with stream: E
+
+# Created at 2020-03-30T13:46:44.661
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T13:46:44.662
+Unexpected IOException with stream: :
+
+# Created at 2020-03-30T13:46:44.662
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.662
+Unexpected IOException with stream: T
+
+# Created at 2020-03-30T13:46:44.663
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T13:46:44.663
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T13:46:44.664
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.664
+Unexpected IOException with stream: d
+
+# Created at 2020-03-30T13:46:44.665
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.665
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T13:46:44.665
+Unexpected IOException with stream: u
+
+# Created at 2020-03-30T13:46:44.666
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T13:46:44.667
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.667
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.668
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.668
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T13:46:44.669
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.670
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T13:46:44.670
+Unexpected IOException with stream: v
+
+# Created at 2020-03-30T13:46:44.671
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T13:46:44.671
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T13:46:44.672
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T13:46:44.672
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.673
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T13:46:44.674
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.675
+Unexpected IOException with stream: s
+
+# Created at 2020-03-30T13:46:44.675
+Unexpected IOException with stream: s
+
+# Created at 2020-03-30T13:46:44.676
+Unexpected IOException with stream: a
+
+# Created at 2020-03-30T13:46:44.677
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T13:46:44.678
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.679
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.679
+Unexpected IOException with stream: f
+
+# Created at 2020-03-30T13:46:44.679
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.680
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T13:46:44.680
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T13:46:44.681
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.681
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.682
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.682
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T13:46:44.683
+Unexpected IOException with stream: d
+
+# Created at 2020-03-30T13:46:44.683
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.684
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.684
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T13:46:44.685
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T13:46:44.685
+Unexpected IOException with stream: :
+
+# Created at 2020-03-30T13:46:44.686
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T13:46:44.686
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.686
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T13:46:44.687
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T13:46:44.687
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.687
+Unexpected IOException with stream: 0
+
+# Created at 2020-03-30T13:46:44.688
+Unexpected IOException with stream: 
+
+# Created at 2020-03-30T13:46:44.688
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:46:44.689
+Unexpected IOException: 5,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Given User is in the check24.de website(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:46:44.689
+Unexpected IOException: 6,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Given User is in the check24.de website(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.716
+Unexpected IOException: 5,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User clicks on the Anmelden button and enters the username and password(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.721
+Unexpected IOException: 7,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User clicks on the Anmelden button and enters the username and password(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']}\000A
+
+
+# Created at 2020-03-30T13:47:34.726
+Unexpected IOException: 7,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54008}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 9478ff60c18f4df82a52743606740751\000A*** Element info: {Using=xpath\002C value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']}\000A
+
+
+# Created at 2020-03-30T13:47:34.744
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,And User clicks on the Anmelden button(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.746
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User is navigated to the account page(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.748
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User clicks on the "Warenkorb" link(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.749
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User is navigated to the Shopping cart page(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.750
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User clicks on the selected product(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.752
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User is navigated to the product details page(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.753
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User toggle off the button(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.754
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User verifies the price displayed and shipping cost(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.755
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User toggle on the button(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.756
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User again verifies for the price change and shipping cost added(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.757
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User hovers above the "Mein Konto"(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.759
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,And User clicks on the "Abmelden" button(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.760
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User should be successfully logged out(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.760
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:34.761
+Unexpected IOException with stream:   Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly # TC3_Toggle.feature:24
+
+
+# Created at 2020-03-30T13:47:34.761
+Unexpected IOException with stream:     Given User is in the check24.de website                                                             # LoginFunctionality.User_is_in_the_check_de_website(int)
+
+
+# Created at 2020-03-30T13:47:34.761
+Unexpected IOException with stream:     When User clicks on the Anmelden button and enters the username and password                        # LoginFunctionality.User_clicks_on_the_Anmelden_button_and_enters_the_username_and_password()
+
+
+# Created at 2020-03-30T13:47:34.762
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}
+        (Session info: chrome=80.0.3987.132)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 9478ff60c18f4df82a52743606740751
+      *** Element info: {Using=xpath, value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at stepDefinition.LoginFunctionality.User_clicks_on_the_Anmelden_button_and_enters_the_username_and_password(LoginFunctionality.java:36)
+      	at ?.When User clicks on the Anmelden button and enters the username and password(TC3_Toggle.feature:27)
+
+
+
+# Created at 2020-03-30T13:47:34.762
+Unexpected IOException with stream:     And User clicks on the Anmelden button                                                              # LoginFunctionality.User_clicks_on_the_Anmelden_button()
+
+
+# Created at 2020-03-30T13:47:34.763
+Unexpected IOException with stream:     Then User is navigated to the account page                                                          # LoginFunctionality.User_is_navigated_to_the_account_page()
+
+
+# Created at 2020-03-30T13:47:34.763
+Unexpected IOException with stream:     When User clicks on the "Warenkorb" link                                                            # ShoppingCartVerification.User_clicks_on_the_link(String)
+
+
+# Created at 2020-03-30T13:47:34.764
+Unexpected IOException with stream:     Then User is navigated to the Shopping cart page                                                    # ShoppingCartVerification.User_is_navigated_to_the_Shopping_cart_page()
+
+
+# Created at 2020-03-30T13:47:34.764
+Unexpected IOException with stream:     When User clicks on the selected product                                                            # ToggleSwitch.User_clicks_on_the_selected_product()
+
+
+# Created at 2020-03-30T13:47:34.764
+Unexpected IOException with stream:     Then User is navigated to the product details page                                                  # ToggleSwitch.User_is_navigated_to_the_product_details_page()
+
+
+# Created at 2020-03-30T13:47:34.765
+Unexpected IOException with stream:     When User toggle off the button                                                                     # ToggleSwitch.User_toggle_off_the_button()
+
+
+# Created at 2020-03-30T13:47:34.765
+Unexpected IOException with stream:     Then User verifies the price displayed and shipping cost                                            # ToggleSwitch.User_verifies_the_price_displayed_and_shipping_cost()
+
+
+# Created at 2020-03-30T13:47:34.765
+Unexpected IOException with stream:     When User toggle on the button                                                                      # ToggleSwitch.User_toggle_on_the_button()
+
+
+# Created at 2020-03-30T13:47:34.766
+Unexpected IOException with stream:     Then User again verifies for the price change and shipping cost added                               # ToggleSwitch.User_again_verifies_for_the_price_change_and_shipping_cost_added()
+
+
+# Created at 2020-03-30T13:47:34.766
+Unexpected IOException with stream:     When User hovers above the "Mein Konto"                                                             # LoginFunctionality.User_hovers_above_the(String)
+
+
+# Created at 2020-03-30T13:47:34.766
+Unexpected IOException with stream:     And User clicks on the "Abmelden" button                                                            # LoginFunctionality.User_clicks_on_the_button(String)
+
+
+# Created at 2020-03-30T13:47:34.767
+Unexpected IOException with stream:     Then User should be successfully logged out                                                         # LoginFunctionality.User_should_be_successfully_logged_out()
+
+
+# Created at 2020-03-30T13:47:34.767
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T13:47:34.768
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T13:47:34.768
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T13:47:34.768
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T13:47:34.769
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T13:47:34.769
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T13:47:34.769
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T13:47:34.770
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T13:47:34.770
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T13:47:34.770
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T13:47:34.770
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T13:47:34.771
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T13:47:34.771
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T13:47:34.771
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T13:47:34.772
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T13:47:34.772
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T13:47:34.772
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T13:47:34.773
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T13:47:34.773
+Unexpected IOException with stream: Feature: Price verification in watchlist page
+
+
+# Created at 2020-03-30T13:47:34.778
+Unexpected IOException: 5,1,Scenario: Put item to watchlist and verify prices and shipping cost,Scenario: Put item to watchlist and verify prices and shipping cost,null,null,null
+
+
+# Created at 2020-03-30T13:47:34.788
+Unexpected IOException: 5,1,Scenario: Put item to watchlist and verify prices and shipping cost,Given User is on the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.790
+Unexpected IOException: 8,1,Scenario: Put item to watchlist and verify prices and shipping cost,Given User is on the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>\000A
+
+
+# Created at 2020-03-30T13:47:34.791
+Unexpected IOException: 8,1,Scenario: Put item to watchlist and verify prices and shipping cost,Scenario: Put item to watchlist and verify prices and shipping cost,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>\000A
+
+
+# Created at 2020-03-30T13:47:34.794
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,When User adds the product by clicking on the "Produkt merken" watchlist link(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.795
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,And User clicks on the "Merkzettel" link on the top(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.796
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,Then User is able to see the added favourite product in the watchlist(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.797
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,When User clicks on the product in the watchlist(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.798
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,Then User is navigated to the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.799
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,And User is able to verify the prices and shipping cost(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.799
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:34.800
+Unexpected IOException with stream:   Scenario: Put item to watchlist and verify prices and shipping cost             # TC4_Watchlist.feature:24
+
+
+# Created at 2020-03-30T13:47:34.800
+Unexpected IOException with stream:     Given User is on the product details page                                     # WatchlistFunctionality.User_is_on_the_product_details_page()
+
+
+# Created at 2020-03-30T13:47:34.800
+Unexpected IOException with stream:       org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:26)
+      	at ?.Given User is on the product details page(TC4_Watchlist.feature:25)
+
+
+
+# Created at 2020-03-30T13:47:34.801
+Unexpected IOException with stream:     When User adds the product by clicking on the "Produkt merken" watchlist link # WatchlistFunctionality.User_adds_the_product_by_clicking_on_the_watchlist_link(String)
+
+
+# Created at 2020-03-30T13:47:34.801
+Unexpected IOException with stream:     And User clicks on the "Merkzettel" link on the top                           # WatchlistFunctionality.User_clicks_on_the_link_on_the_top(String)
+
+
+# Created at 2020-03-30T13:47:34.801
+Unexpected IOException with stream:     Then User is able to see the added favourite product in the watchlist         # WatchlistFunctionality.User_is_able_to_see_the_added_favourite_product_in_the_watchlist()
+
+
+# Created at 2020-03-30T13:47:34.802
+Unexpected IOException with stream:     When User clicks on the product in the watchlist                              # WatchlistFunctionality.User_clicks_on_the_product_in_the_watchlist()
+
+
+# Created at 2020-03-30T13:47:34.802
+Unexpected IOException with stream:     Then User is navigated to the product details page                            # ToggleSwitch.User_is_navigated_to_the_product_details_page()
+
+
+# Created at 2020-03-30T13:47:34.802
+Unexpected IOException with stream:     And User is able to verify the prices and shipping cost                       # WatchlistFunctionality.User_is_able_to_verify_the_prices_and_shipping_cost()
+
+
+# Created at 2020-03-30T13:47:34.803
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T13:47:34.803
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T13:47:34.804
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T13:47:34.804
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T13:47:34.804
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T13:47:34.804
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T13:47:34.805
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T13:47:34.805
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T13:47:34.805
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T13:47:34.806
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T13:47:34.806
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T13:47:34.807
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T13:47:34.807
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T13:47:34.807
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T13:47:34.807
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T13:47:34.808
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T13:47:34.808
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T13:47:34.808
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T13:47:34.809
+Unexpected IOException with stream: Feature: Additional Product sliders verification
+
+
+# Created at 2020-03-30T13:47:34.814
+Unexpected IOException: 5,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection,Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.822
+Unexpected IOException: 5,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),Given User is on the product details page(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.823
+Unexpected IOException: 8,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),Given User is on the product details page(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>\000A
+
+
+# Created at 2020-03-30T13:47:34.823
+Unexpected IOException: 8,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection,Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>\000A
+
+
+# Created at 2020-03-30T13:47:34.826
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),When User clicks on the right slider arrow button(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.827
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),Then User verifies that the left arrow button is enabled(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.828
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),When User clicks on any product(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.830
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),Then User should be navigated to the product details page(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.831
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),And User should be able to see the same price which was displayed in the previous page(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T13:47:34.832
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:34.832
+Unexpected IOException with stream:   Scenario: Interaction of product sliders (Arrows are working, products are clickable, prices are displayed the same after redirection) # TC5_ProductSliders.feature:23
+
+
+# Created at 2020-03-30T13:47:34.833
+Unexpected IOException with stream:     Given User is on the product details page                                                                                            # WatchlistFunctionality.User_is_on_the_product_details_page()
+
+
+# Created at 2020-03-30T13:47:34.833
+Unexpected IOException with stream:       org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:26)
+      	at ?.Given User is on the product details page(TC5_ProductSliders.feature:24)
+
+
+
+# Created at 2020-03-30T13:47:34.833
+Unexpected IOException with stream:     When User clicks on the right slider arrow button                                                                                    # ProductSliders.User_clicks_on_the_right_slider_arrow_button()
+
+
+# Created at 2020-03-30T13:47:34.834
+Unexpected IOException with stream:     Then User verifies that the left arrow button is enabled                                                                             # ProductSliders.User_verifies_that_the_left_arrow_button_is_enabled()
+
+
+# Created at 2020-03-30T13:47:34.834
+Unexpected IOException with stream:     When User clicks on any product                                                                                                      # ProductSliders.User_clicks_on_any_product()
+
+
+# Created at 2020-03-30T13:47:34.834
+Unexpected IOException with stream:     Then User should be navigated to the product details page                                                                            # ProductSliders.User_should_be_navigated_to_the_product_details_page()
+
+
+# Created at 2020-03-30T13:47:34.835
+Unexpected IOException with stream:     And User should be able to see the same price which was displayed in the previous page                                               # ProductSliders.User_should_be_able_to_see_the_same_price_which_was_displayed_in_the_previous_page()
+
+
+# Created at 2020-03-30T13:47:34.836
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T13:47:34.836
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T13:47:34.837
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T13:47:34.837
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T13:47:34.837
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T13:47:34.838
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T13:47:34.838
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T13:47:34.838
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T13:47:34.839
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T13:47:34.839
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T13:47:34.839
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T13:47:34.839
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T13:47:34.840
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T13:47:34.840
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T13:47:34.840
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T13:47:34.841
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T13:47:34.841
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T13:47:34.841
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T13:47:34.842
+Unexpected IOException with stream: Feature: Verify points in product detail page
+
+
+# Created at 2020-03-30T13:47:34.847
+Unexpected IOException: 5,1,Scenario: Voucher/Points at Product Detail Page,Scenario: Voucher/Points at Product Detail Page,null,null,null
+
+
+# Created at 2020-03-30T13:47:38.864
+Unexpected IOException: 5,1,Scenario: Voucher/Points at Product Detail Page,Given User is on the new product details page(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T13:47:38.866
+Unexpected IOException: 8,1,Scenario: Voucher/Points at Product Detail Page,Given User is on the new product details page(Scenario: Voucher/Points at Product Detail Page),null,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,null,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,org.junit.ComparisonFailure: Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>\000A
+
+
+# Created at 2020-03-30T13:47:38.867
+Unexpected IOException: 8,1,Scenario: Voucher/Points at Product Detail Page,Scenario: Voucher/Points at Product Detail Page,null,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,null,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>,org.junit.ComparisonFailure: Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>\000A
+
+
+# Created at 2020-03-30T13:47:38.870
+Unexpected IOException: 9,1,Scenario: Voucher/Points at Product Detail Page,When User hovers above the Points tool tip in the product detail page(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T13:47:38.871
+Unexpected IOException: 9,1,Scenario: Voucher/Points at Product Detail Page,Then User should be able to verify the points details(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T13:47:38.872
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:38.873
+Unexpected IOException with stream:   Scenario: Voucher/Points at Product Detail Page                         # TC6_PointsToolTip.feature:23
+
+
+# Created at 2020-03-30T13:47:38.873
+Unexpected IOException with stream:     Given User is on the new product details page                         # PointsToolTip.User_is_on_the_new_product_details_page()
+
+
+# Created at 2020-03-30T13:47:38.873
+Unexpected IOException with stream:       org.junit.ComparisonFailure: Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at stepDefinition.PointsToolTip.User_is_on_the_new_product_details_page(PointsToolTip.java:27)
+      	at ?.Given User is on the new product details page(TC6_PointsToolTip.feature:24)
+
+
+
+# Created at 2020-03-30T13:47:38.874
+Unexpected IOException with stream:     When User hovers above the Points tool tip in the product detail page # PointsToolTip.User_hovers_above_the_Points_tool_tip_in_the_product_detail_page()
+
+
+# Created at 2020-03-30T13:47:38.874
+Unexpected IOException with stream:     Then User should be able to verify the points details                 # PointsToolTip.User_should_be_able_to_verify_the_points_details()
+
+
+# Created at 2020-03-30T13:47:39.267
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.268
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T13:47:39.268
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-03-30T13:47:39.268
+Unexpected IOException with stream: 5 failed
+
+# Created at 2020-03-30T13:47:39.268
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T13:47:39.269
+Unexpected IOException with stream: 1 passed
+
+# Created at 2020-03-30T13:47:39.269
+Unexpected IOException with stream: )
+
+
+# Created at 2020-03-30T13:47:39.269
+Unexpected IOException with stream: 54
+
+# Created at 2020-03-30T13:47:39.270
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-03-30T13:47:39.270
+Unexpected IOException with stream: 5 failed
+
+# Created at 2020-03-30T13:47:39.270
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T13:47:39.270
+Unexpected IOException with stream: 36 skipped
+
+# Created at 2020-03-30T13:47:39.271
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T13:47:39.271
+Unexpected IOException with stream: 13 passed
+
+# Created at 2020-03-30T13:47:39.271
+Unexpected IOException with stream: )
+
+
+# Created at 2020-03-30T13:47:39.272
+Unexpected IOException with stream: 2m
+
+# Created at 2020-03-30T13:47:39.272
+Unexpected IOException with stream: 25.849s
+
+
+# Created at 2020-03-30T13:47:39.272
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.273
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id="c24-search-form"]//li//div/a[.='iphone 11']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9478ff60c18f4df82a52743606740751
+*** Element info: {Using=xpath, value=//form[@id="c24-search-form"]//li//div/a[.='iphone 11']}
+
+# Created at 2020-03-30T13:47:39.273
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.274
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-03-30T13:47:39.274
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.274
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-03-30T13:47:39.274
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.275
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-03-30T13:47:39.275
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.275
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-03-30T13:47:39.276
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.276
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-03-30T13:47:39.276
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.276
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-03-30T13:47:39.277
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.277
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-03-30T13:47:39.277
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.278
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-03-30T13:47:39.278
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.278
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-03-30T13:47:39.278
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.279
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-03-30T13:47:39.279
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.279
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-03-30T13:47:39.279
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.280
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2020-03-30T13:47:39.280
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.280
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2020-03-30T13:47:39.281
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.281
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-03-30T13:47:39.281
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.281
+Unexpected IOException with stream: 	at stepDefinition.ShoppingCartVerification.User_search_for_in_the_search_box(ShoppingCartVerification.java:37)
+
+# Created at 2020-03-30T13:47:39.281
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.282
+Unexpected IOException with stream: 	at ?.When User search for "Iphone 11" in the search box(TC2_ShoppingCartVerification.feature:27)
+
+# Created at 2020-03-30T13:47:39.282
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.282
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.283
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9478ff60c18f4df82a52743606740751
+*** Element info: {Using=xpath, value=//div[@id='c24-meinkonto']/span/span/a[.='Anmelden']}
+
+# Created at 2020-03-30T13:47:39.283
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.283
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-03-30T13:47:39.283
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.284
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-03-30T13:47:39.284
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.284
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-03-30T13:47:39.284
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.285
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-03-30T13:47:39.285
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.285
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-03-30T13:47:39.285
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.286
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-03-30T13:47:39.286
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.286
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-03-30T13:47:39.286
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.287
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-03-30T13:47:39.287
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.287
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-03-30T13:47:39.287
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.288
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-03-30T13:47:39.288
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.288
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-03-30T13:47:39.288
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.289
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2020-03-30T13:47:39.289
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.289
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2020-03-30T13:47:39.289
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.290
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-03-30T13:47:39.290
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.290
+Unexpected IOException with stream: 	at stepDefinition.LoginFunctionality.User_clicks_on_the_Anmelden_button_and_enters_the_username_and_password(LoginFunctionality.java:36)
+
+# Created at 2020-03-30T13:47:39.290
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.291
+Unexpected IOException with stream: 	at ?.When User clicks on the Anmelden button and enters the username and password(TC3_Toggle.feature:27)
+
+# Created at 2020-03-30T13:47:39.291
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.291
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.292
+Unexpected IOException with stream: org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>
+
+# Created at 2020-03-30T13:47:39.292
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.292
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-03-30T13:47:39.292
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.293
+Unexpected IOException with stream: 	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:26)
+
+# Created at 2020-03-30T13:47:39.293
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.293
+Unexpected IOException with stream: 	at ?.Given User is on the product details page(TC4_Watchlist.feature:25)
+
+# Created at 2020-03-30T13:47:39.293
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.294
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.294
+Unexpected IOException with stream: org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>
+
+# Created at 2020-03-30T13:47:39.294
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.294
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-03-30T13:47:39.295
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.295
+Unexpected IOException with stream: 	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:26)
+
+# Created at 2020-03-30T13:47:39.295
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.295
+Unexpected IOException with stream: 	at ?.Given User is on the product details page(TC5_ProductSliders.feature:24)
+
+# Created at 2020-03-30T13:47:39.296
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.296
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.296
+Unexpected IOException with stream: org.junit.ComparisonFailure: Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[CHECK24 | Das Vergleichsportal]>
+
+# Created at 2020-03-30T13:47:39.296
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.297
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-03-30T13:47:39.297
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.297
+Unexpected IOException with stream: 	at stepDefinition.PointsToolTip.User_is_on_the_new_product_details_page(PointsToolTip.java:27)
+
+# Created at 2020-03-30T13:47:39.297
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.297
+Unexpected IOException with stream: 	at ?.Given User is on the new product details page(TC6_PointsToolTip.feature:24)
+
+# Created at 2020-03-30T13:47:39.298
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.298
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T13:47:39.298
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,testRunner.TestRunner,null,null,null
+
+

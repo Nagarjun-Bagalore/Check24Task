@@ -1,0 +1,575 @@
+# Created at 2020-03-30T12:42:23.576
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-03-30T12:42:24.170
+Unexpected IOException: 5,1,Scenario: Voucher/Points at Product Detail Page,Given User is on the new product details page(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T12:42:24.174
+Unexpected IOException: 7,1,Scenario: Voucher/Points at Product Detail Page,Given User is on the new product details page(Scenario: Voucher/Points at Product Detail Page),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64636}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64636}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64636}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64636}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d\000A
+
+
+# Created at 2020-03-30T12:42:24.176
+Unexpected IOException: 7,1,Scenario: Voucher/Points at Product Detail Page,Scenario: Voucher/Points at Product Detail Page,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64636}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64636}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64636}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64636}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d\000A
+
+
+# Created at 2020-03-30T12:42:24.184
+Unexpected IOException: 9,1,Scenario: Voucher/Points at Product Detail Page,When User hovers above the Points tool tip in the product detail page(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T12:42:24.186
+Unexpected IOException: 9,1,Scenario: Voucher/Points at Product Detail Page,Then User should be able to verify the points details(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T12:42:24.187
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.187
+Unexpected IOException with stream:   Scenario: Voucher/Points at Product Detail Page                         # TC6_PointsToolTip.feature:23
+
+
+# Created at 2020-03-30T12:42:24.188
+Unexpected IOException with stream:     Given User is on the new product details page                         # PointsToolTip.User_is_on_the_new_product_details_page()
+
+
+# Created at 2020-03-30T12:42:24.188
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+      from unknown error: web view not found
+        (Session info: chrome=80.0.3987.132)
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+      	at stepDefinition.PointsToolTip.User_is_on_the_new_product_details_page(PointsToolTip.java:26)
+      	at ?.Given User is on the new product details page(TC6_PointsToolTip.feature:24)
+
+
+
+# Created at 2020-03-30T12:42:24.189
+Unexpected IOException with stream:     When User hovers above the Points tool tip in the product detail page # PointsToolTip.User_hovers_above_the_Points_tool_tip_in_the_product_detail_page()
+
+
+# Created at 2020-03-30T12:42:24.189
+Unexpected IOException with stream:     Then User should be able to verify the points details                 # PointsToolTip.User_should_be_able_to_verify_the_points_details()
+
+
+# Created at 2020-03-30T12:42:24.581
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.581
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T12:42:24.582
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-03-30T12:42:24.582
+Unexpected IOException with stream: 5 failed
+
+# Created at 2020-03-30T12:42:24.583
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T12:42:24.583
+Unexpected IOException with stream: 1 passed
+
+# Created at 2020-03-30T12:42:24.583
+Unexpected IOException with stream: )
+
+
+# Created at 2020-03-30T12:42:24.584
+Unexpected IOException with stream: 40
+
+# Created at 2020-03-30T12:42:24.584
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-03-30T12:42:24.584
+Unexpected IOException with stream: 5 failed
+
+# Created at 2020-03-30T12:42:24.585
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T12:42:24.585
+Unexpected IOException with stream: 18 skipped
+
+# Created at 2020-03-30T12:42:24.586
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T12:42:24.586
+Unexpected IOException with stream: 17 passed
+
+# Created at 2020-03-30T12:42:24.586
+Unexpected IOException with stream: )
+
+
+# Created at 2020-03-30T12:42:24.587
+Unexpected IOException with stream: 1m
+
+# Created at 2020-03-30T12:42:24.587
+Unexpected IOException with stream: 12.657s
+
+
+# Created at 2020-03-30T12:42:24.588
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.588
+Unexpected IOException with stream: org.junit.ComparisonFailure: Price are not the same expected:<7[5]9,00 €> but was:<7[6]9,00 €>
+
+# Created at 2020-03-30T12:42:24.589
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.589
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-03-30T12:42:24.589
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.590
+Unexpected IOException with stream: 	at stepDefinition.ShoppingCartVerification.User_is_able_to_see_the_prices_quantity_and_shipping_cost(ShoppingCartVerification.java:97)
+
+# Created at 2020-03-30T12:42:24.590
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.591
+Unexpected IOException with stream: 	at ?.And User is able to see the prices, quantity and shipping cost(TC2_ShoppingCartVerification.feature:31)
+
+# Created at 2020-03-30T12:42:24.591
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.591
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.592
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+
+# Created at 2020-03-30T12:42:24.592
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.592
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+
+# Created at 2020-03-30T12:42:24.593
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.593
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2020-03-30T12:42:24.594
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.594
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2020-03-30T12:42:24.594
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.595
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-03-30T12:42:24.595
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.595
+Unexpected IOException with stream: 	at stepDefinition.ToggleSwitch.User_clicks_on_the_selected_product(ToggleSwitch.java:33)
+
+# Created at 2020-03-30T12:42:24.596
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.596
+Unexpected IOException with stream: 	at ?.When User clicks on the selected product(TC3_Toggle.feature:27)
+
+# Created at 2020-03-30T12:42:24.596
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.597
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.597
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d
+
+# Created at 2020-03-30T12:42:24.598
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.598
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-03-30T12:42:24.598
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.599
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-03-30T12:42:24.599
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.599
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-03-30T12:42:24.600
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.600
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-03-30T12:42:24.600
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.601
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-03-30T12:42:24.601
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.602
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-03-30T12:42:24.602
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.602
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-03-30T12:42:24.603
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.603
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-03-30T12:42:24.603
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.604
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-03-30T12:42:24.604
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.604
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-03-30T12:42:24.605
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.605
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+# Created at 2020-03-30T12:42:24.605
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.606
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+
+# Created at 2020-03-30T12:42:24.606
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.606
+Unexpected IOException with stream: 	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:25)
+
+# Created at 2020-03-30T12:42:24.607
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.607
+Unexpected IOException with stream: 	at ?.Given User is on the product details page(TC4_Watchlist.feature:25)
+
+# Created at 2020-03-30T12:42:24.607
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.608
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.608
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d
+
+# Created at 2020-03-30T12:42:24.609
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.609
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-03-30T12:42:24.609
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.610
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-03-30T12:42:24.610
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.610
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-03-30T12:42:24.611
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.611
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-03-30T12:42:24.611
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.612
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-03-30T12:42:24.612
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.612
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-03-30T12:42:24.613
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.613
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-03-30T12:42:24.613
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.614
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-03-30T12:42:24.614
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.614
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-03-30T12:42:24.615
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.615
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-03-30T12:42:24.615
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.616
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+# Created at 2020-03-30T12:42:24.616
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.616
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+
+# Created at 2020-03-30T12:42:24.617
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.617
+Unexpected IOException with stream: 	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:25)
+
+# Created at 2020-03-30T12:42:24.617
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.618
+Unexpected IOException with stream: 	at ?.Given User is on the product details page(TC5_ProductSliders.feature:24)
+
+# Created at 2020-03-30T12:42:24.618
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.618
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.619
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff0dbc47d910ee8b4b5c0d75f92d5d5d
+
+# Created at 2020-03-30T12:42:24.619
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.620
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-03-30T12:42:24.620
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.620
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-03-30T12:42:24.621
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.621
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-03-30T12:42:24.621
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.622
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-03-30T12:42:24.622
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.623
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-03-30T12:42:24.623
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.623
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-03-30T12:42:24.624
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.624
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-03-30T12:42:24.624
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.625
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-03-30T12:42:24.625
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.625
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-03-30T12:42:24.626
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.626
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-03-30T12:42:24.626
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.627
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+# Created at 2020-03-30T12:42:24.627
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.627
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+
+# Created at 2020-03-30T12:42:24.628
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.628
+Unexpected IOException with stream: 	at stepDefinition.PointsToolTip.User_is_on_the_new_product_details_page(PointsToolTip.java:26)
+
+# Created at 2020-03-30T12:42:24.628
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.629
+Unexpected IOException with stream: 	at ?.Given User is on the new product details page(TC6_PointsToolTip.feature:24)
+
+# Created at 2020-03-30T12:42:24.629
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.629
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:42:24.630
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,testRunner.TestRunner,null,null,null
+
+

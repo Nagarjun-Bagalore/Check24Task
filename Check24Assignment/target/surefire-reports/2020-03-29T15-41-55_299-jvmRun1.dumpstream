@@ -1,0 +1,316 @@
+# Created at 2020-03-29T15:42:44.025
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-03-29T15:43:04.714
+Unexpected IOException: 5,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User search for "Iphone 11" in the search box(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-29T15:43:04.721
+Unexpected IOException: 7,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User search for "Iphone 11" in the search box(Scenario: Login to Check24 page and verify shopping cart scenario),null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61471}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 950b9fdc8ef4c38b4b4b60c489113689\000A*** Element info: {Using=xpath\002C value=//button[@class='wf-search__button']//*[@title='search-icon']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61471}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 950b9fdc8ef4c38b4b4b60c489113689\000A*** Element info: {Using=xpath\002C value=//button[@class='wf-search__button']//*[@title='search-icon']},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61471}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 950b9fdc8ef4c38b4b4b60c489113689\000A*** Element info: {Using=xpath\002C value=//button[@class='wf-search__button']//*[@title='search-icon']},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61471}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 950b9fdc8ef4c38b4b4b60c489113689\000A*** Element info: {Using=xpath\002C value=//button[@class='wf-search__button']//*[@title='search-icon']}\000A
+
+
+# Created at 2020-03-29T15:43:04.724
+Unexpected IOException: 7,1,Scenario: Login to Check24 page and verify shopping cart scenario,Scenario: Login to Check24 page and verify shopping cart scenario,null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61471}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 950b9fdc8ef4c38b4b4b60c489113689\000A*** Element info: {Using=xpath\002C value=//button[@class='wf-search__button']//*[@title='search-icon']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61471}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 950b9fdc8ef4c38b4b4b60c489113689\000A*** Element info: {Using=xpath\002C value=//button[@class='wf-search__button']//*[@title='search-icon']},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61471}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 950b9fdc8ef4c38b4b4b60c489113689\000A*** Element info: {Using=xpath\002C value=//button[@class='wf-search__button']//*[@title='search-icon']},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61471}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 950b9fdc8ef4c38b4b4b60c489113689\000A*** Element info: {Using=xpath\002C value=//button[@class='wf-search__button']//*[@title='search-icon']}\000A
+
+
+# Created at 2020-03-29T15:43:04.738
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,And User selects the desired model from the result list(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-29T15:43:04.740
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User is navigated to the Iphone model details page(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-29T15:43:04.742
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User clicks on the the button "In den Warenkorb"(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-29T15:43:04.745
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User sees a popup message that the product is added in the Shopping cart(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-29T15:43:04.748
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User clicks on the "Warenkorb" link(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-29T15:43:04.750
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User is navigated to the Shopping cart page(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-29T15:43:04.752
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,And User is able to see the prices\002C quantity and shipping cost(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-29T15:43:04.753
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:04.754
+Unexpected IOException with stream:   Scenario: Login to Check24 page and verify shopping cart scenario               # shoppingCartVerification.feature:22
+
+
+# Created at 2020-03-29T15:43:04.754
+Unexpected IOException with stream:     Given User is already present in the account page                             # ShoppingCartVerification.User_is_already_present_in_the_account_page()
+
+
+# Created at 2020-03-29T15:43:04.755
+Unexpected IOException with stream:     When User search for "Iphone 11" in the search box                            # ShoppingCartVerification.User_search_for_in_the_search_box(String)
+
+
+# Created at 2020-03-29T15:43:04.757
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}
+        (Session info: chrome=80.0.3987.132)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 950b9fdc8ef4c38b4b4b60c489113689
+      *** Element info: {Using=xpath, value=//button[@class='wf-search__button']//*[@title='search-icon']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at stepDefinition.ShoppingCartVerification.User_search_for_in_the_search_box(ShoppingCartVerification.java:34)
+      	at ?.When User search for "Iphone 11" in the search box(shoppingCartVerification.feature:24)
+
+
+
+# Created at 2020-03-29T15:43:04.757
+Unexpected IOException with stream:     And User selects the desired model from the result list                       # ShoppingCartVerification.User_selects_the_desired_model_from_the_result_list()
+
+
+# Created at 2020-03-29T15:43:04.758
+Unexpected IOException with stream:     Then User is navigated to the Iphone model details page                       # ShoppingCartVerification.User_is_navigated_to_the_Iphone_model_details_page()
+
+
+# Created at 2020-03-29T15:43:04.758
+Unexpected IOException with stream:     When User clicks on the the button "In den Warenkorb"                         # ShoppingCartVerification.User_clicks_on_the_the_button(String)
+
+
+# Created at 2020-03-29T15:43:04.759
+Unexpected IOException with stream:     Then User sees a popup message that the product is added in the Shopping cart # ShoppingCartVerification.User_sees_a_popup_message_that_the_product_is_added_in_the_Shopping_cart()
+
+
+# Created at 2020-03-29T15:43:04.760
+Unexpected IOException with stream:     When User clicks on the "Warenkorb" link                                      # ShoppingCartVerification.User_clicks_on_the_link(String)
+
+
+# Created at 2020-03-29T15:43:04.760
+Unexpected IOException with stream:     Then User is navigated to the Shopping cart page                              # ShoppingCartVerification.User_is_navigated_to_the_Shopping_cart_page()
+
+
+# Created at 2020-03-29T15:43:04.761
+Unexpected IOException with stream:     And User is able to see the prices, quantity and shipping cost                # ShoppingCartVerification.User_is_able_to_see_the_prices_quantity_and_shipping_cost()
+
+
+# Created at 2020-03-29T15:43:05.208
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.208
+Unexpected IOException with stream: 2
+
+# Created at 2020-03-29T15:43:05.209
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-03-29T15:43:05.209
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-03-29T15:43:05.210
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-29T15:43:05.210
+Unexpected IOException with stream: 1 passed
+
+# Created at 2020-03-29T15:43:05.211
+Unexpected IOException with stream: )
+
+
+# Created at 2020-03-29T15:43:05.212
+Unexpected IOException with stream: 14
+
+# Created at 2020-03-29T15:43:05.212
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-03-29T15:43:05.213
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-03-29T15:43:05.214
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-29T15:43:05.214
+Unexpected IOException with stream: 7 skipped
+
+# Created at 2020-03-29T15:43:05.215
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-29T15:43:05.215
+Unexpected IOException with stream: 6 passed
+
+# Created at 2020-03-29T15:43:05.215
+Unexpected IOException with stream: )
+
+
+# Created at 2020-03-29T15:43:05.216
+Unexpected IOException with stream: 1m
+
+# Created at 2020-03-29T15:43:05.217
+Unexpected IOException with stream: 8.108s
+
+
+# Created at 2020-03-29T15:43:05.217
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.218
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='wf-search__button']//*[@title='search-icon']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 950b9fdc8ef4c38b4b4b60c489113689
+*** Element info: {Using=xpath, value=//button[@class='wf-search__button']//*[@title='search-icon']}
+
+# Created at 2020-03-29T15:43:05.219
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.219
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-03-29T15:43:05.220
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.220
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-03-29T15:43:05.221
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.221
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-03-29T15:43:05.222
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.222
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-03-29T15:43:05.223
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.223
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-03-29T15:43:05.223
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.224
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-03-29T15:43:05.224
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.225
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-03-29T15:43:05.225
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.226
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-03-29T15:43:05.226
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.227
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-03-29T15:43:05.227
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.228
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-03-29T15:43:05.229
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.229
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-03-29T15:43:05.229
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.230
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2020-03-29T15:43:05.231
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.231
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2020-03-29T15:43:05.232
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.232
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-03-29T15:43:05.232
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.233
+Unexpected IOException with stream: 	at stepDefinition.ShoppingCartVerification.User_search_for_in_the_search_box(ShoppingCartVerification.java:34)
+
+# Created at 2020-03-29T15:43:05.233
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.234
+Unexpected IOException with stream: 	at ?.When User search for "Iphone 11" in the search box(shoppingCartVerification.feature:24)
+
+# Created at 2020-03-29T15:43:05.234
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.235
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-29T15:43:05.235
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,testRunner.TestRunner,null,null,null
+
+

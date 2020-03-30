@@ -1,0 +1,1556 @@
+# Created at 2020-03-30T12:57:01.893
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-03-30T12:57:19.090
+Unexpected IOException: 5,1,Scenario: Login to Check24 page and verify user details,Then User should be successfully logged out(Scenario: Login to Check24 page and verify user details),null,null,null
+
+
+# Created at 2020-03-30T12:57:19.090
+Unexpected IOException: 6,1,Scenario: Login to Check24 page and verify user details,Then User should be successfully logged out(Scenario: Login to Check24 page and verify user details),null,null,null
+
+
+# Created at 2020-03-30T12:57:19.091
+Unexpected IOException: 6,1,Scenario: Login to Check24 page and verify user details,Scenario: Login to Check24 page and verify user details,null,null,null
+
+
+# Created at 2020-03-30T12:57:19.092
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:57:19.092
+Unexpected IOException with stream:   Scenario: Login to Check24 page and verify user details                        # TC1_Check24.feature:23
+
+
+# Created at 2020-03-30T12:57:19.093
+Unexpected IOException with stream:     Given User is in the check24.de website                                      # LoginFunctionality.User_is_in_the_check_de_website(int)
+
+
+# Created at 2020-03-30T12:57:19.093
+Unexpected IOException with stream:     When User clicks on the Anmelden button and enters the username and password # LoginFunctionality.User_clicks_on_the_Anmelden_button_and_enters_the_username_and_password()
+
+
+# Created at 2020-03-30T12:57:19.093
+Unexpected IOException with stream:     And User clicks on the Anmelden button                                       # LoginFunctionality.User_clicks_on_the_Anmelden_button()
+
+
+# Created at 2020-03-30T12:57:19.094
+Unexpected IOException with stream:     Then User is navigated to the account page                                   # LoginFunctionality.User_is_navigated_to_the_account_page()
+
+
+# Created at 2020-03-30T12:57:19.094
+Unexpected IOException with stream:     And User sees his details                                                    # LoginFunctionality.User_sees_his_details()
+
+
+# Created at 2020-03-30T12:57:19.095
+Unexpected IOException with stream:     When User hovers above the "Mein Konto"                                      # LoginFunctionality.User_hovers_above_the(String)
+
+
+# Created at 2020-03-30T12:57:19.095
+Unexpected IOException with stream:     And User clicks on the "Abmelden" button                                     # LoginFunctionality.User_clicks_on_the_button(String)
+
+
+# Created at 2020-03-30T12:57:19.095
+Unexpected IOException with stream:     Then User should be successfully logged out                                  # LoginFunctionality.User_should_be_successfully_logged_out()
+
+
+# Created at 2020-03-30T12:57:19.096
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T12:57:19.096
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T12:57:19.097
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T12:57:19.097
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T12:57:19.098
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T12:57:19.098
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T12:57:19.098
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T12:57:19.099
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T12:57:19.099
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T12:57:19.099
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T12:57:19.100
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T12:57:19.100
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T12:57:19.101
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T12:57:19.101
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T12:57:19.101
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T12:57:19.102
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T12:57:19.102
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T12:57:19.102
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T12:57:19.103
+Unexpected IOException with stream: Feature: Adding items in the shopping cart and verify prices, quantity and shipping cost
+
+
+# Created at 2020-03-30T12:57:19.109
+Unexpected IOException: 5,1,Scenario: Login to Check24 page and verify shopping cart scenario,Scenario: Login to Check24 page and verify shopping cart scenario,null,null,null
+
+
+# Created at 2020-03-30T12:57:21.119
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T12:57:21.121
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:21.123
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:21.123
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:21.123
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:21.124
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:21.124
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T12:57:21.124
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:21.125
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:21.125
+Unexpected IOException with stream: 4
+
+# Created at 2020-03-30T12:57:21.125
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:21.126
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:21.126
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:21.126
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:21.127
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T12:57:21.127
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T12:57:21.128
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T12:57:21.128
+Unexpected IOException with stream: W
+
+# Created at 2020-03-30T12:57:21.128
+Unexpected IOException with stream: A
+
+# Created at 2020-03-30T12:57:21.129
+Unexpected IOException with stream: R
+
+# Created at 2020-03-30T12:57:21.129
+Unexpected IOException with stream: N
+
+# Created at 2020-03-30T12:57:21.129
+Unexpected IOException with stream: I
+
+# Created at 2020-03-30T12:57:21.130
+Unexpected IOException with stream: N
+
+# Created at 2020-03-30T12:57:21.130
+Unexpected IOException with stream: G
+
+# Created at 2020-03-30T12:57:21.130
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T12:57:21.131
+Unexpected IOException with stream: :
+
+# Created at 2020-03-30T12:57:21.131
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:21.131
+Unexpected IOException with stream: T
+
+# Created at 2020-03-30T12:57:21.132
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:21.132
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T12:57:21.132
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:21.133
+Unexpected IOException with stream: d
+
+# Created at 2020-03-30T12:57:21.133
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:21.133
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:21.134
+Unexpected IOException with stream: u
+
+# Created at 2020-03-30T12:57:21.134
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:21.134
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:21.135
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T12:57:21.135
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:21.135
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:21.136
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:21.136
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:21.136
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T12:57:21.137
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:21.137
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:21.137
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:21.138
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T12:57:21.138
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:21.138
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:21.139
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:21.139
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:21.139
+Unexpected IOException with stream: C
+
+# Created at 2020-03-30T12:57:21.140
+Unexpected IOException with stream: h
+
+# Created at 2020-03-30T12:57:21.140
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:21.140
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:21.141
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T12:57:21.141
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:21.141
+Unexpected IOException with stream: ,
+
+# Created at 2020-03-30T12:57:21.142
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:21.142
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:21.142
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:21.142
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:21.143
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:21.143
+Unexpected IOException with stream: y
+
+# Created at 2020-03-30T12:57:21.143
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:21.144
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:21.144
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T12:57:21.144
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:21.145
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:21.145
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:21.145
+Unexpected IOException with stream: 
+
+# Created at 2020-03-30T12:57:21.146
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:57:25.144
+Unexpected IOException: 5,1,Scenario: Login to Check24 page and verify shopping cart scenario,Given User is already present in the account page(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.148
+Unexpected IOException: 7,1,Scenario: Login to Check24 page and verify shopping cart scenario,Given User is already present in the account page(Scenario: Login to Check24 page and verify shopping cart scenario),null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c\000A
+
+
+# Created at 2020-03-30T12:57:25.150
+Unexpected IOException: 7,1,Scenario: Login to Check24 page and verify shopping cart scenario,Scenario: Login to Check24 page and verify shopping cart scenario,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c\000A
+
+
+# Created at 2020-03-30T12:57:25.164
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User search for "Iphone 11" in the search box(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.165
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,And User selects the desired model from the result list(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.167
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User is navigated to the Iphone model details page(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.168
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User clicks on the the button "In den Warenkorb"(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.169
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User sees a popup message that the product is added in the Shopping cart(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.171
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,When User clicks on the "Warenkorb" link(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.172
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,Then User is navigated to the Shopping cart page(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.173
+Unexpected IOException: 9,1,Scenario: Login to Check24 page and verify shopping cart scenario,And User is able to see the prices\002C quantity and shipping cost(Scenario: Login to Check24 page and verify shopping cart scenario),null,null,null
+
+
+# Created at 2020-03-30T12:57:25.174
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:57:25.174
+Unexpected IOException with stream:   Scenario: Login to Check24 page and verify shopping cart scenario               # TC2_ShoppingCartVerification.feature:22
+
+
+# Created at 2020-03-30T12:57:25.175
+Unexpected IOException with stream:     Given User is already present in the account page                             # ShoppingCartVerification.User_is_already_present_in_the_account_page()
+
+
+# Created at 2020-03-30T12:57:25.175
+Unexpected IOException with stream:       org.openqa.selenium.WebDriverException: chrome not reachable
+        (Session info: chrome=80.0.3987.132)
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 0fee382121c7f481d17dfd46fdd2fa0c
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+      	at stepDefinition.ShoppingCartVerification.User_is_already_present_in_the_account_page(ShoppingCartVerification.java:24)
+      	at ?.Given User is already present in the account page(TC2_ShoppingCartVerification.feature:23)
+
+
+
+# Created at 2020-03-30T12:57:25.176
+Unexpected IOException with stream:     When User search for "Iphone 11" in the search box                            # ShoppingCartVerification.User_search_for_in_the_search_box(String)
+
+
+# Created at 2020-03-30T12:57:25.176
+Unexpected IOException with stream:     And User selects the desired model from the result list                       # ShoppingCartVerification.User_selects_the_desired_model_from_the_result_list()
+
+
+# Created at 2020-03-30T12:57:25.177
+Unexpected IOException with stream:     Then User is navigated to the Iphone model details page                       # ShoppingCartVerification.User_is_navigated_to_the_Iphone_model_details_page()
+
+
+# Created at 2020-03-30T12:57:25.177
+Unexpected IOException with stream:     When User clicks on the the button "In den Warenkorb"                         # ShoppingCartVerification.User_clicks_on_the_the_button(String)
+
+
+# Created at 2020-03-30T12:57:25.177
+Unexpected IOException with stream:     Then User sees a popup message that the product is added in the Shopping cart # ShoppingCartVerification.User_sees_a_popup_message_that_the_product_is_added_in_the_Shopping_cart()
+
+
+# Created at 2020-03-30T12:57:25.178
+Unexpected IOException with stream:     When User clicks on the "Warenkorb" link                                      # ShoppingCartVerification.User_clicks_on_the_link(String)
+
+
+# Created at 2020-03-30T12:57:25.178
+Unexpected IOException with stream:     Then User is navigated to the Shopping cart page                              # ShoppingCartVerification.User_is_navigated_to_the_Shopping_cart_page()
+
+
+# Created at 2020-03-30T12:57:25.178
+Unexpected IOException with stream:     And User is able to see the prices, quantity and shipping cost                # ShoppingCartVerification.User_is_able_to_see_the_prices_quantity_and_shipping_cost()
+
+
+# Created at 2020-03-30T12:57:25.179
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T12:57:25.179
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T12:57:25.180
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T12:57:25.180
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T12:57:25.180
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T12:57:25.181
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T12:57:25.181
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T12:57:25.181
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T12:57:25.182
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T12:57:25.182
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T12:57:25.182
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T12:57:25.183
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T12:57:25.183
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T12:57:25.183
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T12:57:25.184
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T12:57:25.184
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T12:57:25.184
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T12:57:25.184
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T12:57:25.185
+Unexpected IOException with stream: Feature: Checking for toggle functionality and verifying for the price change
+
+
+# Created at 2020-03-30T12:57:25.190
+Unexpected IOException: 5,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,null,null,null
+
+
+# Created at 2020-03-30T12:57:27.197
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T12:57:27.199
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:27.201
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:27.201
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:27.201
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:27.202
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:27.202
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T12:57:27.202
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:27.203
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:27.203
+Unexpected IOException with stream: 4
+
+# Created at 2020-03-30T12:57:27.203
+Unexpected IOException with stream: 7
+
+# Created at 2020-03-30T12:57:27.204
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:27.204
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:27.204
+Unexpected IOException with stream: 9
+
+# Created at 2020-03-30T12:57:27.205
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T12:57:27.205
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T12:57:27.205
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T12:57:27.206
+Unexpected IOException with stream: W
+
+# Created at 2020-03-30T12:57:27.206
+Unexpected IOException with stream: A
+
+# Created at 2020-03-30T12:57:27.206
+Unexpected IOException with stream: R
+
+# Created at 2020-03-30T12:57:27.206
+Unexpected IOException with stream: N
+
+# Created at 2020-03-30T12:57:27.207
+Unexpected IOException with stream: I
+
+# Created at 2020-03-30T12:57:27.207
+Unexpected IOException with stream: N
+
+# Created at 2020-03-30T12:57:27.207
+Unexpected IOException with stream: G
+
+# Created at 2020-03-30T12:57:27.208
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T12:57:27.208
+Unexpected IOException with stream: :
+
+# Created at 2020-03-30T12:57:27.208
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:27.208
+Unexpected IOException with stream: T
+
+# Created at 2020-03-30T12:57:27.209
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:27.209
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T12:57:27.209
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:27.210
+Unexpected IOException with stream: d
+
+# Created at 2020-03-30T12:57:27.210
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:27.210
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:27.210
+Unexpected IOException with stream: u
+
+# Created at 2020-03-30T12:57:27.211
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:27.211
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:27.211
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T12:57:27.212
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:27.212
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:27.212
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:27.212
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:27.213
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T12:57:27.213
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:27.213
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:27.214
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:27.214
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T12:57:27.214
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:27.214
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:27.215
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:27.215
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:27.215
+Unexpected IOException with stream: C
+
+# Created at 2020-03-30T12:57:27.215
+Unexpected IOException with stream: h
+
+# Created at 2020-03-30T12:57:27.216
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:27.216
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:27.216
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T12:57:27.217
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:27.217
+Unexpected IOException with stream: ,
+
+# Created at 2020-03-30T12:57:27.217
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:27.217
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:27.218
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:27.218
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:27.218
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:27.219
+Unexpected IOException with stream: y
+
+# Created at 2020-03-30T12:57:27.219
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:27.219
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:27.220
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T12:57:27.220
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:27.220
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:27.220
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:27.221
+Unexpected IOException with stream: 
+
+# Created at 2020-03-30T12:57:27.221
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:57:31.220
+Unexpected IOException: 5,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Given User is already in the shopping cart page(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:57:31.223
+Unexpected IOException: 7,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Given User is already in the shopping cart page(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c\000A
+
+
+# Created at 2020-03-30T12:57:31.224
+Unexpected IOException: 7,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c\000A
+
+
+# Created at 2020-03-30T12:57:31.232
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User clicks on the selected product(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:57:31.233
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User is navigated to the product details page(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:57:31.234
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User toggle off the button(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:57:31.235
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User verifies the price displayed and shipping cost(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:57:31.236
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User toggle on the button(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:57:31.236
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User again verifies for the price change and shipping cost added(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:57:31.237
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:57:31.237
+Unexpected IOException with stream:   Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly # TC3_Toggle.feature:24
+
+
+# Created at 2020-03-30T12:57:31.238
+Unexpected IOException with stream:     Given User is already in the shopping cart page                                                     # ToggleSwitch.User_is_already_in_the_shopping_cart_page()
+
+
+# Created at 2020-03-30T12:57:31.239
+Unexpected IOException with stream:       org.openqa.selenium.WebDriverException: chrome not reachable
+        (Session info: chrome=80.0.3987.132)
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 0fee382121c7f481d17dfd46fdd2fa0c
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+      	at stepDefinition.ToggleSwitch.User_is_already_in_the_shopping_cart_page(ToggleSwitch.java:24)
+      	at ?.Given User is already in the shopping cart page(TC3_Toggle.feature:26)
+
+
+
+# Created at 2020-03-30T12:57:31.239
+Unexpected IOException with stream:     When User clicks on the selected product                                                            # ToggleSwitch.User_clicks_on_the_selected_product()
+
+
+# Created at 2020-03-30T12:57:31.240
+Unexpected IOException with stream:     Then User is navigated to the product details page                                                  # ToggleSwitch.User_is_navigated_to_the_product_details_page()
+
+
+# Created at 2020-03-30T12:57:31.240
+Unexpected IOException with stream:     When User toggle off the button                                                                     # ToggleSwitch.User_toggle_off_the_button()
+
+
+# Created at 2020-03-30T12:57:31.241
+Unexpected IOException with stream:     Then User verifies the price displayed and shipping cost                                            # ToggleSwitch.User_verifies_the_price_displayed_and_shipping_cost()
+
+
+# Created at 2020-03-30T12:57:31.241
+Unexpected IOException with stream:     When User toggle on the button                                                                      # ToggleSwitch.User_toggle_on_the_button()
+
+
+# Created at 2020-03-30T12:57:31.241
+Unexpected IOException with stream:     Then User again verifies for the price change and shipping cost added                               # ToggleSwitch.User_again_verifies_for_the_price_change_and_shipping_cost_added()
+
+
+# Created at 2020-03-30T12:57:31.242
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T12:57:31.242
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T12:57:31.242
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T12:57:31.243
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T12:57:31.243
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T12:57:31.243
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T12:57:31.244
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T12:57:31.244
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T12:57:31.244
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T12:57:31.245
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T12:57:31.245
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T12:57:31.245
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T12:57:31.245
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T12:57:31.246
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T12:57:31.246
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T12:57:31.246
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T12:57:31.247
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T12:57:31.247
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T12:57:31.247
+Unexpected IOException with stream: Feature: Price verification in watchlist page
+
+
+# Created at 2020-03-30T12:57:31.253
+Unexpected IOException: 5,1,Scenario: Put item to watchlist and verify prices and shipping cost,Scenario: Put item to watchlist and verify prices and shipping cost,null,null,null
+
+
+# Created at 2020-03-30T12:57:33.260
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T12:57:33.262
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:33.263
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:33.264
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:33.264
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:33.265
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:33.265
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T12:57:33.265
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:33.265
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:33.266
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:33.266
+Unexpected IOException with stream: 3
+
+# Created at 2020-03-30T12:57:33.266
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:33.267
+Unexpected IOException with stream: 2
+
+# Created at 2020-03-30T12:57:33.267
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:33.267
+Unexpected IOException with stream: 9
+
+# Created at 2020-03-30T12:57:33.267
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T12:57:33.268
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T12:57:33.268
+Unexpected IOException with stream: W
+
+# Created at 2020-03-30T12:57:33.268
+Unexpected IOException with stream: A
+
+# Created at 2020-03-30T12:57:33.268
+Unexpected IOException with stream: R
+
+# Created at 2020-03-30T12:57:33.269
+Unexpected IOException with stream: N
+
+# Created at 2020-03-30T12:57:33.269
+Unexpected IOException with stream: I
+
+# Created at 2020-03-30T12:57:33.269
+Unexpected IOException with stream: N
+
+# Created at 2020-03-30T12:57:33.270
+Unexpected IOException with stream: G
+
+# Created at 2020-03-30T12:57:33.270
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T12:57:33.270
+Unexpected IOException with stream: :
+
+# Created at 2020-03-30T12:57:33.270
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:33.271
+Unexpected IOException with stream: T
+
+# Created at 2020-03-30T12:57:33.271
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:33.271
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T12:57:33.271
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:33.272
+Unexpected IOException with stream: d
+
+# Created at 2020-03-30T12:57:33.272
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:33.272
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:33.272
+Unexpected IOException with stream: u
+
+# Created at 2020-03-30T12:57:33.273
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:33.273
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:33.273
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T12:57:33.274
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:33.274
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:33.274
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:33.274
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:33.275
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T12:57:33.275
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:33.275
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:33.275
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:33.276
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T12:57:33.276
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:33.276
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:33.276
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:33.277
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:33.277
+Unexpected IOException with stream: C
+
+# Created at 2020-03-30T12:57:33.277
+Unexpected IOException with stream: h
+
+# Created at 2020-03-30T12:57:33.278
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:33.278
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:33.278
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T12:57:33.278
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:33.279
+Unexpected IOException with stream: ,
+
+# Created at 2020-03-30T12:57:33.279
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:33.279
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:33.279
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:33.280
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:33.280
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:33.280
+Unexpected IOException with stream: y
+
+# Created at 2020-03-30T12:57:33.280
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:33.281
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:33.281
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T12:57:33.281
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:33.281
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:33.282
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:33.282
+Unexpected IOException with stream: 
+
+# Created at 2020-03-30T12:57:33.282
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:57:37.280
+Unexpected IOException: 5,1,Scenario: Put item to watchlist and verify prices and shipping cost,Given User is on the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:57:37.283
+Unexpected IOException: 7,1,Scenario: Put item to watchlist and verify prices and shipping cost,Given User is on the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c\000A
+
+
+# Created at 2020-03-30T12:57:37.284
+Unexpected IOException: 7,1,Scenario: Put item to watchlist and verify prices and shipping cost,Scenario: Put item to watchlist and verify prices and shipping cost,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,null,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,chrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=80.0.3987.132)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0fee382121c7f481d17dfd46fdd2fa0c\000A
+
+
+# Created at 2020-03-30T12:57:37.292
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,When User adds the product by clicking on the "Produkt merken" watchlist link(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:57:37.294
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,And User clicks on the "Merkzettel" link on the top(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:57:37.295
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,Then User is able to see the added favourite product in the watchlist(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:57:37.296
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,When User clicks on the product in the watchlist(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:57:37.297
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,Then User is navigated to the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:57:37.298
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,And User is able to verify the prices and shipping cost(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:57:37.298
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:57:37.299
+Unexpected IOException with stream:   Scenario: Put item to watchlist and verify prices and shipping cost             # TC4_Watchlist.feature:24
+
+
+# Created at 2020-03-30T12:57:37.299
+Unexpected IOException with stream:     Given User is on the product details page                                     # WatchlistFunctionality.User_is_on_the_product_details_page()
+
+
+# Created at 2020-03-30T12:57:37.300
+Unexpected IOException with stream:       org.openqa.selenium.WebDriverException: chrome not reachable
+        (Session info: chrome=80.0.3987.132)
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 0fee382121c7f481d17dfd46fdd2fa0c
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+      	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:25)
+      	at ?.Given User is on the product details page(TC4_Watchlist.feature:25)
+
+
+
+# Created at 2020-03-30T12:57:37.300
+Unexpected IOException with stream:     When User adds the product by clicking on the "Produkt merken" watchlist link # WatchlistFunctionality.User_adds_the_product_by_clicking_on_the_watchlist_link(String)
+
+
+# Created at 2020-03-30T12:57:37.301
+Unexpected IOException with stream:     And User clicks on the "Merkzettel" link on the top                           # WatchlistFunctionality.User_clicks_on_the_link_on_the_top(String)
+
+
+# Created at 2020-03-30T12:57:37.301
+Unexpected IOException with stream:     Then User is able to see the added favourite product in the watchlist         # WatchlistFunctionality.User_is_able_to_see_the_added_favourite_product_in_the_watchlist()
+
+
+# Created at 2020-03-30T12:57:37.302
+Unexpected IOException with stream:     When User clicks on the product in the watchlist                              # WatchlistFunctionality.User_clicks_on_the_product_in_the_watchlist()
+
+
+# Created at 2020-03-30T12:57:37.302
+Unexpected IOException with stream:     Then User is navigated to the product details page                            # ToggleSwitch.User_is_navigated_to_the_product_details_page()
+
+
+# Created at 2020-03-30T12:57:37.302
+Unexpected IOException with stream:     And User is able to verify the prices and shipping cost                       # WatchlistFunctionality.User_is_able_to_verify_the_prices_and_shipping_cost()
+
+
+# Created at 2020-03-30T12:57:37.302
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T12:57:37.303
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T12:57:37.303
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T12:57:37.303
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T12:57:37.304
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T12:57:37.304
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T12:57:37.304
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T12:57:37.305
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T12:57:37.305
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T12:57:37.305
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T12:57:37.306
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T12:57:37.306
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T12:57:37.306
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T12:57:37.306
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T12:57:37.307
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T12:57:37.307
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T12:57:37.307
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T12:57:37.307
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T12:57:37.308
+Unexpected IOException with stream: Feature: Additional Product sliders verification
+
+
+# Created at 2020-03-30T12:57:37.313
+Unexpected IOException: 5,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection,Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),null,null,null
+
+
+# Created at 2020-03-30T12:57:39.319
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T12:57:39.320
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:39.320
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:39.321
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:39.321
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:39.322
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:39.322
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T12:57:39.323
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:39.323
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:39.324
+Unexpected IOException with stream: 5
+
+# Created at 2020-03-30T12:57:39.324
+Unexpected IOException with stream: 9
+
+# Created at 2020-03-30T12:57:39.324
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:39.325
+Unexpected IOException with stream: 3
+
+# Created at 2020-03-30T12:57:39.325
+Unexpected IOException with stream: 1
+
+# Created at 2020-03-30T12:57:39.326
+Unexpected IOException with stream: 8
+
+# Created at 2020-03-30T12:57:39.326
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T12:57:39.326
+Unexpected IOException with stream: [
+
+# Created at 2020-03-30T12:57:39.327
+Unexpected IOException with stream: W
+
+# Created at 2020-03-30T12:57:39.327
+Unexpected IOException with stream: A
+
+# Created at 2020-03-30T12:57:39.327
+Unexpected IOException with stream: R
+
+# Created at 2020-03-30T12:57:39.328
+Unexpected IOException with stream: N
+
+# Created at 2020-03-30T12:57:39.328
+Unexpected IOException with stream: I
+
+# Created at 2020-03-30T12:57:39.328
+Unexpected IOException with stream: N
+
+# Created at 2020-03-30T12:57:39.329
+Unexpected IOException with stream: G
+
+# Created at 2020-03-30T12:57:39.329
+Unexpected IOException with stream: ]
+
+# Created at 2020-03-30T12:57:39.329
+Unexpected IOException with stream: :
+
+# Created at 2020-03-30T12:57:39.330
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:39.330
+Unexpected IOException with stream: T
+
+# Created at 2020-03-30T12:57:39.330
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:39.331
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T12:57:39.331
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:39.331
+Unexpected IOException with stream: d
+
+# Created at 2020-03-30T12:57:39.332
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:39.332
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:39.332
+Unexpected IOException with stream: u
+
+# Created at 2020-03-30T12:57:39.332
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:39.333
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:39.333
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T12:57:39.333
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:39.334
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:39.334
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:39.334
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:39.335
+Unexpected IOException with stream: c
+
+# Created at 2020-03-30T12:57:39.335
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:39.335
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:39.336
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:39.336
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T12:57:39.336
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:39.337
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:39.337
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:39.337
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:39.338
+Unexpected IOException with stream: C
+
+# Created at 2020-03-30T12:57:39.338
+Unexpected IOException with stream: h
+
+# Created at 2020-03-30T12:57:39.338
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:39.338
+Unexpected IOException with stream: o
+
+# Created at 2020-03-30T12:57:39.339
+Unexpected IOException with stream: m
+
+# Created at 2020-03-30T12:57:39.339
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:39.339
+Unexpected IOException with stream: ,
+
+# Created at 2020-03-30T12:57:39.340
+Unexpected IOException with stream:  
+
+# Created at 2020-03-30T12:57:39.340
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:39.340
+Unexpected IOException with stream: e
+
+# Created at 2020-03-30T12:57:39.341
+Unexpected IOException with stream: t
+
+# Created at 2020-03-30T12:57:39.341
+Unexpected IOException with stream: r
+
+# Created at 2020-03-30T12:57:39.341
+Unexpected IOException with stream: y
+
+# Created at 2020-03-30T12:57:39.341
+Unexpected IOException with stream: i
+
+# Created at 2020-03-30T12:57:39.342
+Unexpected IOException with stream: n
+
+# Created at 2020-03-30T12:57:39.342
+Unexpected IOException with stream: g
+
+# Created at 2020-03-30T12:57:39.342
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:39.343
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:39.343
+Unexpected IOException with stream: .
+
+# Created at 2020-03-30T12:57:39.343
+Unexpected IOException with stream: 
+
+# Created at 2020-03-30T12:57:39.344
+Unexpected IOException with stream: 
+
+

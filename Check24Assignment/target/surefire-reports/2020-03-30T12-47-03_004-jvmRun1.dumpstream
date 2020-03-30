@@ -1,0 +1,498 @@
+# Created at 2020-03-30T12:47:48.099
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-03-30T12:48:33.079
+Unexpected IOException: 5,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User clicks on the selected product(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.083
+Unexpected IOException: 7,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User clicks on the selected product(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:65134}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: bff87abff903a4d93c4da97d6a73fccf\000A*** Element info: {Using=xpath\002C value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:65134}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: bff87abff903a4d93c4da97d6a73fccf\000A*** Element info: {Using=xpath\002C value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:65134}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: bff87abff903a4d93c4da97d6a73fccf\000A*** Element info: {Using=xpath\002C value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:65134}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: bff87abff903a4d93c4da97d6a73fccf\000A*** Element info: {Using=xpath\002C value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']}\000A
+
+
+# Created at 2020-03-30T12:48:33.085
+Unexpected IOException: 7,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:65134}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: bff87abff903a4d93c4da97d6a73fccf\000A*** Element info: {Using=xpath\002C value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:65134}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: bff87abff903a4d93c4da97d6a73fccf\000A*** Element info: {Using=xpath\002C value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:65134}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: bff87abff903a4d93c4da97d6a73fccf\000A*** Element info: {Using=xpath\002C value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}\000A  (Session info: chrome=80.0.3987.132)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MSGN12731'\002C ip: '192.168.178.46'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 80.0.3987.132\002C chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609...\002C userDataDir: C:\005CUsers\005Cbagaln\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:65134}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: bff87abff903a4d93c4da97d6a73fccf\000A*** Element info: {Using=xpath\002C value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']}\000A
+
+
+# Created at 2020-03-30T12:48:33.094
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User is navigated to the product details page(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.095
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User toggle off the button(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.097
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User verifies the price displayed and shipping cost(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.098
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,When User toggle on the button(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.099
+Unexpected IOException: 9,1,Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly,Then User again verifies for the price change and shipping cost added(Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.100
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:48:33.100
+Unexpected IOException with stream:   Scenario: Shipping cost toggle product detail page and verify if the shipping cost is added correctly # TC3_Toggle.feature:24
+
+
+# Created at 2020-03-30T12:48:33.101
+Unexpected IOException with stream:     Given User is already in the shopping cart page                                                     # ToggleSwitch.User_is_already_in_the_shopping_cart_page()
+
+
+# Created at 2020-03-30T12:48:33.101
+Unexpected IOException with stream:     When User clicks on the selected product                                                            # ToggleSwitch.User_clicks_on_the_selected_product()
+
+
+# Created at 2020-03-30T12:48:33.102
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a//h2[.='Apple iPhone 11 64GB iOS schwarz']"}
+        (Session info: chrome=80.0.3987.132)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: bff87abff903a4d93c4da97d6a73fccf
+      *** Element info: {Using=xpath, value=//a//h2[.='Apple iPhone 11 64GB iOS schwarz']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at stepDefinition.ToggleSwitch.User_clicks_on_the_selected_product(ToggleSwitch.java:33)
+      	at ?.When User clicks on the selected product(TC3_Toggle.feature:27)
+
+
+
+# Created at 2020-03-30T12:48:33.102
+Unexpected IOException with stream:     Then User is navigated to the product details page                                                  # ToggleSwitch.User_is_navigated_to_the_product_details_page()
+
+
+# Created at 2020-03-30T12:48:33.103
+Unexpected IOException with stream:     When User toggle off the button                                                                     # ToggleSwitch.User_toggle_off_the_button()
+
+
+# Created at 2020-03-30T12:48:33.103
+Unexpected IOException with stream:     Then User verifies the price displayed and shipping cost                                            # ToggleSwitch.User_verifies_the_price_displayed_and_shipping_cost()
+
+
+# Created at 2020-03-30T12:48:33.103
+Unexpected IOException with stream:     When User toggle on the button                                                                      # ToggleSwitch.User_toggle_on_the_button()
+
+
+# Created at 2020-03-30T12:48:33.104
+Unexpected IOException with stream:     Then User again verifies for the price change and shipping cost added                               # ToggleSwitch.User_again_verifies_for_the_price_change_and_shipping_cost_added()
+
+
+# Created at 2020-03-30T12:48:33.104
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T12:48:33.105
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T12:48:33.105
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T12:48:33.106
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T12:48:33.106
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T12:48:33.106
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T12:48:33.107
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T12:48:33.107
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T12:48:33.107
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T12:48:33.108
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T12:48:33.108
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T12:48:33.109
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T12:48:33.109
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T12:48:33.109
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T12:48:33.110
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T12:48:33.110
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T12:48:33.110
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T12:48:33.111
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T12:48:33.111
+Unexpected IOException with stream: Feature: Price verification in watchlist page
+
+
+# Created at 2020-03-30T12:48:33.117
+Unexpected IOException: 5,1,Scenario: Put item to watchlist and verify prices and shipping cost,Scenario: Put item to watchlist and verify prices and shipping cost,null,null,null
+
+
+# Created at 2020-03-30T12:48:33.126
+Unexpected IOException: 5,1,Scenario: Put item to watchlist and verify prices and shipping cost,Given User is on the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.127
+Unexpected IOException: 8,1,Scenario: Put item to watchlist and verify prices and shipping cost,Given User is on the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>\000A
+
+
+# Created at 2020-03-30T12:48:33.128
+Unexpected IOException: 8,1,Scenario: Put item to watchlist and verify prices and shipping cost,Scenario: Put item to watchlist and verify prices and shipping cost,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>\000A
+
+
+# Created at 2020-03-30T12:48:33.131
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,When User adds the product by clicking on the "Produkt merken" watchlist link(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.133
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,And User clicks on the "Merkzettel" link on the top(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.134
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,Then User is able to see the added favourite product in the watchlist(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.136
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,When User clicks on the product in the watchlist(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.137
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,Then User is navigated to the product details page(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.138
+Unexpected IOException: 9,1,Scenario: Put item to watchlist and verify prices and shipping cost,And User is able to verify the prices and shipping cost(Scenario: Put item to watchlist and verify prices and shipping cost),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.139
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:48:33.139
+Unexpected IOException with stream:   Scenario: Put item to watchlist and verify prices and shipping cost             # TC4_Watchlist.feature:24
+
+
+# Created at 2020-03-30T12:48:33.139
+Unexpected IOException with stream:     Given User is on the product details page                                     # WatchlistFunctionality.User_is_on_the_product_details_page()
+
+
+# Created at 2020-03-30T12:48:33.140
+Unexpected IOException with stream:       org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:26)
+      	at ?.Given User is on the product details page(TC4_Watchlist.feature:25)
+
+
+
+# Created at 2020-03-30T12:48:33.140
+Unexpected IOException with stream:     When User adds the product by clicking on the "Produkt merken" watchlist link # WatchlistFunctionality.User_adds_the_product_by_clicking_on_the_watchlist_link(String)
+
+
+# Created at 2020-03-30T12:48:33.141
+Unexpected IOException with stream:     And User clicks on the "Merkzettel" link on the top                           # WatchlistFunctionality.User_clicks_on_the_link_on_the_top(String)
+
+
+# Created at 2020-03-30T12:48:33.141
+Unexpected IOException with stream:     Then User is able to see the added favourite product in the watchlist         # WatchlistFunctionality.User_is_able_to_see_the_added_favourite_product_in_the_watchlist()
+
+
+# Created at 2020-03-30T12:48:33.141
+Unexpected IOException with stream:     When User clicks on the product in the watchlist                              # WatchlistFunctionality.User_clicks_on_the_product_in_the_watchlist()
+
+
+# Created at 2020-03-30T12:48:33.142
+Unexpected IOException with stream:     Then User is navigated to the product details page                            # ToggleSwitch.User_is_navigated_to_the_product_details_page()
+
+
+# Created at 2020-03-30T12:48:33.142
+Unexpected IOException with stream:     And User is able to verify the prices and shipping cost                       # WatchlistFunctionality.User_is_able_to_verify_the_prices_and_shipping_cost()
+
+
+# Created at 2020-03-30T12:48:33.143
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T12:48:33.143
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T12:48:33.143
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T12:48:33.144
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T12:48:33.144
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T12:48:33.145
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T12:48:33.145
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T12:48:33.145
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T12:48:33.146
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T12:48:33.146
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T12:48:33.146
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T12:48:33.147
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T12:48:33.147
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T12:48:33.148
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T12:48:33.148
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T12:48:33.148
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T12:48:33.149
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T12:48:33.149
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T12:48:33.150
+Unexpected IOException with stream: Feature: Additional Product sliders verification
+
+
+# Created at 2020-03-30T12:48:33.155
+Unexpected IOException: 5,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection,Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.163
+Unexpected IOException: 5,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),Given User is on the product details page(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.164
+Unexpected IOException: 8,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),Given User is on the product details page(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>\000A
+
+
+# Created at 2020-03-30T12:48:33.165
+Unexpected IOException: 8,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection,Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,null,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>,org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>\000A
+
+
+# Created at 2020-03-30T12:48:33.167
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),When User clicks on the right slider arrow button(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.169
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),Then User verifies that the left arrow button is enabled(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.170
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),When User clicks on any product(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.171
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),Then User should be navigated to the product details page(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.172
+Unexpected IOException: 9,1,Arrows are working\002C products are clickable\002C prices are displayed the same after redirection),And User should be able to see the same price which was displayed in the previous page(Scenario: Interaction of product sliders (Arrows are working\002C products are clickable\002C prices are displayed the same after redirection)),null,null,null
+
+
+# Created at 2020-03-30T12:48:33.173
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T12:48:33.173
+Unexpected IOException with stream:   Scenario: Interaction of product sliders (Arrows are working, products are clickable, prices are displayed the same after redirection) # TC5_ProductSliders.feature:23
+
+
+# Created at 2020-03-30T12:48:33.173
+Unexpected IOException with stream:     Given User is on the product details page                                                                                            # WatchlistFunctionality.User_is_on_the_product_details_page()
+
+
+# Created at 2020-03-30T12:48:33.174
+Unexpected IOException with stream:       org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Warenkorb - Shopping | CHECK24]>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:26)
+      	at ?.Given User is on the product details page(TC5_ProductSliders.feature:24)
+
+
+
+# Created at 2020-03-30T12:48:33.174
+Unexpected IOException with stream:     When User clicks on the right slider arrow button                                                                                    # ProductSliders.User_clicks_on_the_right_slider_arrow_button()
+
+
+# Created at 2020-03-30T12:48:33.175
+Unexpected IOException with stream:     Then User verifies that the left arrow button is enabled                                                                             # ProductSliders.User_verifies_that_the_left_arrow_button_is_enabled()
+
+
+# Created at 2020-03-30T12:48:33.175
+Unexpected IOException with stream:     When User clicks on any product                                                                                                      # ProductSliders.User_clicks_on_any_product()
+
+
+# Created at 2020-03-30T12:48:33.175
+Unexpected IOException with stream:     Then User should be navigated to the product details page                                                                            # ProductSliders.User_should_be_navigated_to_the_product_details_page()
+
+
+# Created at 2020-03-30T12:48:33.176
+Unexpected IOException with stream:     And User should be able to see the same price which was displayed in the previous page                                               # ProductSliders.User_should_be_able_to_see_the_same_price_which_was_displayed_in_the_previous_page()
+
+
+# Created at 2020-03-30T12:48:33.177
+Unexpected IOException with stream: #Author: your.email@your.domain.com
+
+
+# Created at 2020-03-30T12:48:33.177
+Unexpected IOException with stream: #Keywords Summary :
+
+
+# Created at 2020-03-30T12:48:33.177
+Unexpected IOException with stream: #Feature: List of scenarios.
+
+
+# Created at 2020-03-30T12:48:33.178
+Unexpected IOException with stream: #Scenario: Business rule through list of steps with arguments.
+
+
+# Created at 2020-03-30T12:48:33.178
+Unexpected IOException with stream: #Given: Some precondition step
+
+
+# Created at 2020-03-30T12:48:33.178
+Unexpected IOException with stream: #When: Some key actions
+
+
+# Created at 2020-03-30T12:48:33.179
+Unexpected IOException with stream: #Then: To observe outcomes or validation
+
+
+# Created at 2020-03-30T12:48:33.179
+Unexpected IOException with stream: #And,But: To enumerate more Given,When,Then steps
+
+
+# Created at 2020-03-30T12:48:33.179
+Unexpected IOException with stream: #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+
+
+# Created at 2020-03-30T12:48:33.180
+Unexpected IOException with stream: #Examples: Container for s table
+
+
+# Created at 2020-03-30T12:48:33.180
+Unexpected IOException with stream: #Background: List of steps run before each of the scenarios
+
+
+# Created at 2020-03-30T12:48:33.181
+Unexpected IOException with stream: #""" (Doc Strings)
+
+
+# Created at 2020-03-30T12:48:33.181
+Unexpected IOException with stream: #| (Data Tables)
+
+
+# Created at 2020-03-30T12:48:33.181
+Unexpected IOException with stream: #@ (Tags/Labels):To group Scenarios
+
+
+# Created at 2020-03-30T12:48:33.182
+Unexpected IOException with stream: #<> (placeholder)
+
+
+# Created at 2020-03-30T12:48:33.182
+Unexpected IOException with stream: #""
+
+
+# Created at 2020-03-30T12:48:33.182
+Unexpected IOException with stream: ## (Comments)
+
+
+# Created at 2020-03-30T12:48:33.183
+Unexpected IOException with stream: #Sample Feature Definition Template
+
+
+# Created at 2020-03-30T12:48:33.183
+Unexpected IOException with stream: Feature: Verify points in product detail page
+
+
+# Created at 2020-03-30T12:48:33.188
+Unexpected IOException: 5,1,Scenario: Voucher/Points at Product Detail Page,Scenario: Voucher/Points at Product Detail Page,null,null,null
+
+

@@ -1,0 +1,347 @@
+# Created at 2020-03-30T08:23:17.698
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-03-30T08:23:19.213
+Unexpected IOException: 5,1,Scenario: Voucher/Points at Product Detail Page,Given User is on the new product details page(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T08:23:19.214
+Unexpected IOException: 8,1,Scenario: Voucher/Points at Product Detail Page,Given User is on the new product details page(Scenario: Voucher/Points at Product Detail Page),null,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>,null,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>,org.junit.ComparisonFailure: Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>\000A
+
+
+# Created at 2020-03-30T08:23:19.215
+Unexpected IOException: 8,1,Scenario: Voucher/Points at Product Detail Page,Scenario: Voucher/Points at Product Detail Page,null,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>,null,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>,Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>,org.junit.ComparisonFailure: Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>\000A
+
+
+# Created at 2020-03-30T08:23:19.217
+Unexpected IOException: 9,1,Scenario: Voucher/Points at Product Detail Page,When User hovers above the Points tool tip in the product detail page(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T08:23:19.219
+Unexpected IOException: 9,1,Scenario: Voucher/Points at Product Detail Page,Then User should be able to verify the points details(Scenario: Voucher/Points at Product Detail Page),null,null,null
+
+
+# Created at 2020-03-30T08:23:19.220
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.220
+Unexpected IOException with stream:   Scenario: Voucher/Points at Product Detail Page                         # TC6_PointsToolTip.feature:23
+
+
+# Created at 2020-03-30T08:23:19.220
+Unexpected IOException with stream:     Given User is on the new product details page                         # PointsToolTip.User_is_on_the_new_product_details_page()
+
+
+# Created at 2020-03-30T08:23:19.221
+Unexpected IOException with stream:       org.junit.ComparisonFailure: Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at stepDefinition.PointsToolTip.User_is_on_the_new_product_details_page(PointsToolTip.java:25)
+      	at ?.Given User is on the new product details page(TC6_PointsToolTip.feature:24)
+
+
+
+# Created at 2020-03-30T08:23:19.221
+Unexpected IOException with stream:     When User hovers above the Points tool tip in the product detail page # PointsToolTip.User_hovers_above_the_Points_tool_tip_in_the_product_detail_page()
+
+
+# Created at 2020-03-30T08:23:19.222
+Unexpected IOException with stream:     Then User should be able to verify the points details                 # PointsToolTip.User_should_be_able_to_verify_the_points_details()
+
+
+# Created at 2020-03-30T08:23:19.594
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.595
+Unexpected IOException with stream: 6
+
+# Created at 2020-03-30T08:23:19.595
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-03-30T08:23:19.596
+Unexpected IOException with stream: 4 failed
+
+# Created at 2020-03-30T08:23:19.596
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T08:23:19.597
+Unexpected IOException with stream: 2 passed
+
+# Created at 2020-03-30T08:23:19.597
+Unexpected IOException with stream: )
+
+
+# Created at 2020-03-30T08:23:19.598
+Unexpected IOException with stream: 37
+
+# Created at 2020-03-30T08:23:19.598
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-03-30T08:23:19.599
+Unexpected IOException with stream: 4 failed
+
+# Created at 2020-03-30T08:23:19.599
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T08:23:19.600
+Unexpected IOException with stream: 10 skipped
+
+# Created at 2020-03-30T08:23:19.600
+Unexpected IOException with stream: , 
+
+# Created at 2020-03-30T08:23:19.601
+Unexpected IOException with stream: 23 passed
+
+# Created at 2020-03-30T08:23:19.601
+Unexpected IOException with stream: )
+
+
+# Created at 2020-03-30T08:23:19.601
+Unexpected IOException with stream: 1m
+
+# Created at 2020-03-30T08:23:19.603
+Unexpected IOException with stream: 40.460s
+
+
+# Created at 2020-03-30T08:23:19.603
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.604
+Unexpected IOException with stream: org.junit.ComparisonFailure: Price are not the same expected:<[759],00 €> but was:<[1.518],00 €>
+
+# Created at 2020-03-30T08:23:19.605
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.605
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-03-30T08:23:19.606
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.606
+Unexpected IOException with stream: 	at stepDefinition.ShoppingCartVerification.User_is_able_to_see_the_prices_quantity_and_shipping_cost(ShoppingCartVerification.java:97)
+
+# Created at 2020-03-30T08:23:19.607
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.607
+Unexpected IOException with stream: 	at ?.And User is able to see the prices, quantity and shipping cost(TC2_ShoppingCartVerification.feature:31)
+
+# Created at 2020-03-30T08:23:19.608
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.609
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.609
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='body']/div[3]/div/div/div/a"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSGN12731', ip: '192.168.178.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bagaln\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d58a2a9241f309b4a39b7ed0d7927ed
+*** Element info: {Using=xpath, value=//div[@id='body']/div[3]/div/div/div/a}
+
+# Created at 2020-03-30T08:23:19.610
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.610
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-03-30T08:23:19.611
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.611
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-03-30T08:23:19.611
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.612
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-03-30T08:23:19.612
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.613
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-03-30T08:23:19.613
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.614
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-03-30T08:23:19.614
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.615
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-03-30T08:23:19.615
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.616
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-03-30T08:23:19.617
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.617
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-03-30T08:23:19.618
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.619
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-03-30T08:23:19.619
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.619
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-03-30T08:23:19.620
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.620
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-03-30T08:23:19.621
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.622
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2020-03-30T08:23:19.622
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.622
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2020-03-30T08:23:19.623
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.623
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-03-30T08:23:19.624
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.624
+Unexpected IOException with stream: 	at stepDefinition.WatchlistFunctionality.User_is_able_to_see_the_added_favourite_product_in_the_watchlist(WatchlistFunctionality.java:45)
+
+# Created at 2020-03-30T08:23:19.625
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.625
+Unexpected IOException with stream: 	at ?.Then User is able to see the added favourite product in the watchlist(TC4_Watchlist.feature:28)
+
+# Created at 2020-03-30T08:23:19.626
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.627
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.627
+Unexpected IOException with stream: org.junit.ComparisonFailure: Apple iPhone 11 64 GB Black Dual-SIM details page is not displayed expected:<[Apple iPhone 11 64 GB Black Dual-SIM Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>
+
+# Created at 2020-03-30T08:23:19.628
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.628
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-03-30T08:23:19.629
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.630
+Unexpected IOException with stream: 	at stepDefinition.WatchlistFunctionality.User_is_on_the_product_details_page(WatchlistFunctionality.java:26)
+
+# Created at 2020-03-30T08:23:19.630
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.631
+Unexpected IOException with stream: 	at ?.Given User is on the product details page(TC5_ProductSliders.feature:24)
+
+# Created at 2020-03-30T08:23:19.631
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.632
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.632
+Unexpected IOException with stream: org.junit.ComparisonFailure: Selected product detail page is not displayed expected:<[Apple iPhone 8 64GB Space Grau Preis ohne Vertrag im CHECK24-Preisvergleich]> but was:<[Merkzettel - Shopping | CHECK24]>
+
+# Created at 2020-03-30T08:23:19.632
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.633
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:115)
+
+# Created at 2020-03-30T08:23:19.633
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.634
+Unexpected IOException with stream: 	at stepDefinition.PointsToolTip.User_is_on_the_new_product_details_page(PointsToolTip.java:25)
+
+# Created at 2020-03-30T08:23:19.634
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.635
+Unexpected IOException with stream: 	at ?.Given User is on the new product details page(TC6_PointsToolTip.feature:24)
+
+# Created at 2020-03-30T08:23:19.635
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.635
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-30T08:23:19.636
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,testRunner.TestRunner,null,null,null
+
+
